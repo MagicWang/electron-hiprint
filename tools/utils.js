@@ -288,8 +288,8 @@ function initServeEvent(server) {
     if (store.get("allowNotify")) {
       // 弹出连接成功通知
       const notification = new Notification({
-        title: "新的连接",
-        body: `已建立新的连接，当前连接数：${server.engine.clientsCount}`,
+        title: "New connection",
+        body: `A new connection has been established. Current number of connections: ${server.engine.clientsCount}`,
       });
       // 显示通知
       notification.show();

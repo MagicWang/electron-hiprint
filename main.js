@@ -182,7 +182,7 @@ async function initialize() {
 async function createWindow() {
   const windowOptions = {
     width: 500, // 窗口宽度
-    height: 300, // 窗口高度
+    height: 400, // 窗口高度
     title: store.get("mainTitle") || "Electron-hiprint",
     useContentSize: true, // 窗口大小不包含边框
     center: true, // 居中
